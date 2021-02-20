@@ -1,0 +1,101 @@
+@charset "UTF-8"
+
+html {font-size: 100%;}
+
+h1 {font-family: futura-pt-condensed, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: #000000; font-size: 28px;}
+
+h2 {color: #00000; font-size: 20px;
+    font-family: futura-pt-condensed, sans-serif; YuGothic; 游ゴシック;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+
+h3 {color: #707070; font-size: 15px;
+    font-family: futura-pt-condensed, sans-serif; YuGothic; 游ゴシック;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 20px;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 24px;
+  list-style: none
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #000000;
+}
+.main-nav a:hover {
+  color: #707070
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 200px;
+  max-width: 1024px;
+  font-family: futura-pt-condensed, sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.works-top {
+  background: #f4f4f4;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  max-width: 1024px;
+  text-align: center;
+}
+
+.works-nav {
+  display: flex;
+  font-size: 15px;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  list-style: none;
+}
+
+.works-nav li {
+  margin-left:20px;
+}
+
+.works-nav a {
+  color: #000000;
+}
+
+.works-nav a:hover {
+  color: #707070;
+}
+
+.web {
+  margin: 0 auto;
+  padding: 100px;
+  max-width: 1024px;
+}
